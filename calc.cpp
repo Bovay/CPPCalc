@@ -1,4 +1,3 @@
-#include <iostream>
 #include "calc.hpp"
 
 using namespace std;
@@ -8,7 +7,7 @@ int operations::add(int a, int b){
 }
 
 int operations::sub(int a, int b){
-    if (a > b) return a - b;
+    //if (a > b) return a - b; (add back later)
     return b - a;
 }
 
@@ -17,6 +16,6 @@ int operations::mul(int a, int b){
 }
 
 double operations::div(int a, int b){
-    if (a > b) return a / b;
+    //if (a > b) return a / b; (add back later)
     return b / a;
 }
